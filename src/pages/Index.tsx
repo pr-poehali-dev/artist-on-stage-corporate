@@ -29,7 +29,7 @@ export default function Index() {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <h1 className="text-xl font-bold text-primary">АРТИСТ</h1>
+            <h1 className="text-xl font-bold text-primary">MARUT</h1>
             <div className="hidden md:flex space-x-8">
               <button onClick={() => scrollToSection('about')} className="text-sm font-medium hover:text-accent transition-colors">О себе</button>
               <button onClick={() => scrollToSection('portfolio')} className="text-sm font-medium hover:text-accent transition-colors">Портфолио</button>
@@ -183,15 +183,15 @@ export default function Index() {
           <div>
             <h3 className="text-2xl font-bold text-primary mb-8 flex items-center gap-3">
               <Icon name="Music" className="text-accent" size={28} />
-              Треки артиста
+              Треки MARUT
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { title: 'Вечный Путь', status: 'Трек года — ВК Музыка', plays: '1.2M' },
-                { title: 'Ночной Город', status: 'Трек года — Яндекс Музыка', plays: '980K' },
-                { title: 'Свет и Тени', status: 'Новый релиз', plays: '450K' },
-                { title: 'Время Перемен', status: 'Популярный', plays: '620K' },
-                { title: 'Рассвет', status: 'В тренде', plays: '540K' }
+                { title: 'Омут в океане', status: 'Трек года — ВК Музыка', plays: '1.2M' },
+                { title: 'На машине БМВ', status: 'Трек года — Яндекс Музыка', plays: '980K' },
+                { title: 'Без права на любовь', status: 'Новый релиз', plays: '450K' },
+                { title: 'Любовь твоя', status: 'Популярный', plays: '620K' },
+                { title: 'Головная музыка', status: 'В тренде', plays: '540K' }
               ].map((track, idx) => (
                 <Card key={idx} className="p-6 hover:shadow-xl transition-all hover:-translate-y-1 border-none">
                   <div className="flex items-start justify-between mb-4">
@@ -298,13 +298,13 @@ export default function Index() {
           <div className="mt-12 text-center">
             <p className="text-gray-400 mb-6">Или свяжитесь напрямую:</p>
             <div className="flex flex-wrap justify-center gap-6">
-              <a href="mailto:artist@example.com" className="flex items-center gap-2 text-accent hover:text-accent/80 transition-colors">
+              <a href="mailto:pasamarutenkov043@gmail.com" className="flex items-center gap-2 text-accent hover:text-accent/80 transition-colors">
                 <Icon name="Mail" size={20} />
-                <span className="font-semibold">artist@example.com</span>
+                <span className="font-semibold">pasamarutenkov043@gmail.com</span>
               </a>
-              <a href="tel:+79991234567" className="flex items-center gap-2 text-accent hover:text-accent/80 transition-colors">
+              <a href="tel:+79521457884" className="flex items-center gap-2 text-accent hover:text-accent/80 transition-colors">
                 <Icon name="Phone" size={20} />
-                <span className="font-semibold">+7 (999) 123-45-67</span>
+                <span className="font-semibold">+7 (952) 145-78-84</span>
               </a>
             </div>
           </div>
@@ -315,7 +315,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <h3 className="text-2xl font-bold mb-2">АРТИСТ</h3>
+              <h3 className="text-2xl font-bold mb-2">MARUT</h3>
               <p className="text-gray-400">Профессиональные выступления для корпоративов</p>
             </div>
             <div className="flex gap-6">
