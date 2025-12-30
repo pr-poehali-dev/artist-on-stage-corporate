@@ -123,14 +123,14 @@ export default function Index() {
             <div className="relative">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://cdn.poehali.dev/projects/e0a05d03-b1f1-4fa9-9965-e65b2f755692/files/d3a279a0-3ea8-407a-afe8-9276f2bd6872.jpg" 
+                  src="https://cdn.poehali.dev/files/photo_5375251545357750082_y.jpg" 
                   alt="Артист на сцене"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-accent text-primary p-6 rounded-xl shadow-xl">
-                <div className="text-3xl font-bold">5+</div>
-                <div className="text-sm font-semibold">Лет опыта</div>
+                <div className="text-3xl font-bold">3</div>
+                <div className="text-sm font-semibold">Года опыта</div>
               </div>
             </div>
           </div>
